@@ -5,7 +5,7 @@ public class Main {
         double height = 1.96; // рост в метрах
 
         double bmi = service.calculate(mass, height);
-        System.out.println(bmi);
+        System.out.println((int)bmi);
 
 
     }
